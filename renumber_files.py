@@ -10,7 +10,7 @@ ext = '.jpg'
 def sort_key(filename):
 	return int(filename.split(root)[1].split(ext)[0])
 
-files = [f for f in os.listdir() if f.endswith(ext)]
+files = [f for f in os.listdir('.') if f.endswith(ext)]
 
 # Sort
 files = sorted(files, key = sort_key)
