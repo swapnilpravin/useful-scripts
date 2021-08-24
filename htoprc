@@ -1,0 +1,5 @@
+# For machines with large number of CPUs.
+left_meters=LeftCPUs2 Memory Swap
+left_meter_modes=1 1 1
+right_meters=RightCPUs2 Tasks LoadAverage Uptime
+right_meter_modes=1 2 2 2
